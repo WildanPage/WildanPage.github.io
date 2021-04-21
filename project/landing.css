@@ -1,0 +1,41 @@
+.navbar-brand {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.carousel-item .display-4 {
+  margin-top: -600px;
+  padding-top: 5%;
+}
+.carousel-item {
+  height: 740px;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: -480px;
+}
+.carousel-item {
+  margin-top: 0%;
+}
+
+.carousel-item hr {
+  border-color: burlywood;
+  padding-top: 5%;
+}
+.carousel-item a {
+  background-color: burlywood;
+
+  border-radius: 30px;
+}
+.carousel-item .dropdown-menu {
+  margin-top: 0%;
+}
+.carousel-item .display-3 {
+  padding-top: 5%;
+}
+.carousel-item .display-2 {
+  color: black;
+}
+
+.carousel-item .display-1 {
+  padding-top: 5%;
+  color: white;
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Formulir pendaftaran</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="E:\DATA\portofolioWeb\fontawesome-free-5.15.3-web\css\all.min.css">
+</head>
+
+<body>
+    <div class="iju">
+        <i class="far fa-user "> Buat Akun</i>
+    </div>
+
+
+    <br>
+    <div class="container">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <br>
+                <label for="inputNamaDepan"><b>Nama Depan</b></label>
+                <input type="Nama Depan" class="form-control" placeholder="Nama Depan">
+            </div>
+            <div class="form-group col-md-6">
+                <br>
+                <label for="inputNamaBelakang"><b>Nama Belakang</b></label>
+                <input type="Nama Belakang" class="form-control" placeholder="Nama Belakang">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-group col-md-12">
+                <label for="inputUsername"><b>Buat username*</b></label>
+                <input type="text" class="form-control" placeholder="Username">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputPassword"><b>Buat password*</b></label>
+                <input type="password" class="form-control" placeholder="Password">
+                <small>*password harus kombinasi minimal 6 karakter</small>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword"><b>Konfirmasi password anda*</b></label>
+                <input type="password" class="form-control" placeholder="Konfirmasi Password">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputemail"><b>e-mail*</b></label>
+                <input type="email" class="form-control" placeholder="e-mail">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputTelepon"><b>Masukan nomor telepon</b></label>
+                <input type="number" class="form-control" placeholder="Nomor telepon">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-group col-md-12">
+                <label for="inputJenisKelamin"><b>Jenis Kelamin</b></label>
+                <select id="inputJenisKelamin" class="form-control" placeholder="Jenis Kelamin">
+                    <option selected>Choose...</option>
+                    <option>Laki-laki</option>
+                    <option>Perempuan</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputTempat"><b>Tempat lahir</b></label>
+                <input type="text" class="form-control" id="inputTempat" placeholder="Masukan tempat lahir anda ">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputTanggal"><b>Tanggal lahir</b></label>
+                <input type="date" class="form-control" id="inputTanggal">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputKota"><b>Detail Alamat</b></label>
+                <select id="inputKota" class="form-control" placeholder="Kota asal">
+                    <option selected>Kota asal...</option>
+                    <option>Bogor</option>
+                    <option>Jakarta</option>
+                    <option>Bandung</option>
+                    <option>Semarang</option>
+                    <option>Yogyakarta</option>
+                    <option>Bali</option>
+                    <option>Surabaya</option>
+                    <option>Malang</option>
+                    <option>Makassar</option>
+                    <option>Palembang</option>
+                    <option>Padang</option>
+                    <option>Papua</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4 mt-2">
+                <label for="inputProvinsi"></label>
+                <select id="inputprovinsi" class="form-control" placeholder="provinsi asal">
+                    <option selected>provinsi asal...</option>
+                    <option>DKI Jakarta</option>
+                    <option>Jawa Barat</option>
+                    <option>Jawa Tengah</option>
+                    <option>Jawa Timur</option>
+                    <option>DIY Yogyakarta</option>
+                    <option>Bali</option>
+                    <option>Sumatera Barat</option>
+                    <option>Sumatera Selatan</option>
+                    <option>Kalimantan Barat</option>
+                    <option>Papua</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4 mt-2">
+                <label for="inputNegara"></label>
+                <select id="inputNegara" class="form-control" placeholder="Negara">
+                    <option selected>Negara asal...</option>
+                    <option>Indonesia</option>
+                </select>
+            </div>
+        </div>
+        <p>*wajib diisi</p>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" value="setuju">
+                <label class="form-check-label" for="gridCheck"><b>Syarat dan ketentuan</b></label>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <a class="btn btn-success " button type="submit" href="halaman utama.html">DAFTAR</a>
+            <a class="btn btn-danger " button type="reset" href="halaman utama.html">KELUAR</a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2021 Wildan Nugraha. All Rights Reserved</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+
+
+</html>
