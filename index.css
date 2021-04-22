@@ -1,68 +1,221 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
-* {
-  margin: 0px;
-  padding: 0px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(gambar/astronout.svg);
-  background-size: cover;
-  background-position: center;
-}
-ul {
-  margin: 25px 0px 0px 0px;
-  padding: 20px;
-  text-align: center;
-  font-family: "Orbitron", sans-serif;
-}
-li {
-  display: inline;
-  padding: 3%;
-  font-size: 110%;
+  background-color: rgb(12, 12, 12);
+ }
+
+.container {
+  display: flex;
+  flex-direction: row;
 }
 
-a {
+img {
+  width: 90%;
+  display: block;
+  margin: -15% 0% 0% 45%;
+  filter: drop-shadow(0px 0px 5px rgba(228, 228, 228, 0.5));
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.intro {
+  width: 550px;
+  margin: 5% 0% 0% 10%;
+  
+}
+
+#button1 {
+  margin-left: 7%;
+  border: 1px solid yellowgreen;
+  color: yellowgreen;
+  width: 140px;
+  padding: 2%;
+  border-radius: 20px;
+  font-size: 145%;
   text-decoration: none;
-  color: #f1faee;
-  text-shadow: 2px 1px orangered;
+  text-align: center;
   transition: 0.5s;
 }
-a:hover {
-  text-decoration: underline;
-  font-size: 115%;
-  color: #f1faee;
-}
-hr{
-    width: 30%;
-    color: white;
-    margin: auto;
+
+#button2 {
+  margin-left: 15%;
+  border: 1px solid rgb(190, 55, 74);
+  color: rgb(190, 55, 74);
+  transition: 0.5s;
+  width: 140px;
+  padding: 2%;
+  border-radius: 20px;
+  font-size: 145%;
+  text-decoration: none;
+  text-align: center;
 }
 
- #name {
-  padding-top: 3%;
-  text-align: center;
-  font-size: 260%;
-  color: cornsilk;
-  text-shadow: 4px 4px 4px rgb(153, 33, 33);
-  font-family: "Orbitron", sans-serif;
+.buttons {
+  margin: 5% 0% 0% 7%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
 }
+
+#garis {
+  border: 1px solid rgba(46, 45, 45, 0.796);
+  margin: 5% 0% 0% 8%;
+  width: 85%;
+}
+
+.abc {
+  margin:10% 0% 0% 8%;
+  line-height: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
 #role {
+  margin-top: 10%;
+  color: cornsilk;
+  font-size: 160%;
   text-align: center;
-  font-size: 140%;
-  color: hsl(0, 84%, 48%);
-  text-shadow: 2px 1.5px #f1faee;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+#name {
+  color: cornsilk;
+  font-size: 250%;
+}
+
+.icons {
+  margin: 20% 0% 0% 15%;
+  font-size: 280%;
+}
+
+#copyright {
+  color: cornsilk;
+  margin:40% 0% 0% 10%;
+  font-size: 120%;
+}
+
+@media (max-width: 1500px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(59, 58, 58, 0.6)),
+      url(gambar/wildan.png);
+    background-size: cover;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  img {
+    width: 0%;
+  }
+
+  .intro {
+    margin-right: 30px;
+    width: auto;
+  }
+
+  #button1,
+  #button2 {
+    width: 100px;
+    margin-left: 5%;
+    font-size: 100%;
+  }
+
+  #garis {
+    margin: 8% 0% 0% 8%;
+  }
+
+  .abc {
+    line-height: 30px;
+  }
+
+  #role {
+    margin: auto;
+    font-size: 92%;
+  }
+
+  #name {
+    font-size: 220%;
+  }
+
+  .icons {
+    margin-right: 15.5%;
+    font-size: 180%;
+  }
+
+  #copyright {
+    margin: 75% 0% 0% 0%;
+    text-align: center;
+    font-size: 100%;
+  }
+}
+
+#button1:hover {
+  transform: scale(1.2);
+  background: rgb(108, 190, 55);
+  color: white;
+  background: linear-gradient(90deg,
+      rgba(108, 190, 55, 1) 32%,
+      rgba(245, 255, 0, 1) 100%);
+}
+
+#button2:hover {
+  transform: scale(1.2);
+  background: rgb(190, 55, 74);
+  color: white;
+  background: linear-gradient(90deg,
+      rgba(190, 55, 74, 0.7959558823529411) 33%,
+      rgba(255, 136, 0, 0.8407738095238095) 100%);
+}
+
+#hi {
+  color: tomato;
+  font-size: 130%;
+}
+
+#whatsapp {
+  color: lightgreen;
+  margin-left: 8%;
   transition: 0.5s;
 }
 
-#role:hover {
-  transform: scale(1.4);
+#whatsapp:hover {
+  transform: scale(1.5);
 }
 
-footer {
-  text-align: center;
-  color: white;
-  font-size: 90%;
-  padding-top: 320px;
-  text-shadow: 2px 1px orangered;
+#email {
+  color: rgb(199, 43, 43);
+
+  margin-left: 8%;
+  transition: 0.5s;
+}
+
+#email:hover {
+  transform: scale(1.5);
+}
+
+#linked {
+  color: rgb(62, 146, 241);
+
+  margin-left: 8%;
+  transition: 0.5s;
+}
+
+#linked:hover {
+  transform: scale(1.5);
+}
+
+#git {
+  color: grey;
+
+  margin-left: 8%;
+  transition: 0.5s;
+}
+
+#git:hover {
+  transform: scale(1.5);
 }
