@@ -97,7 +97,7 @@ img:hover {
   font-size: 120%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(59, 58, 58, 0.6)),
       url(gambar/wildan.png);
@@ -143,14 +143,14 @@ img:hover {
   }
 
   .icons {
-    margin-right: 15%;
+    margin-right: 16.2%;
     font-size: 175%;
   }
 
   #copyright {
-    margin: 75% 0% 0% 0%;
+    margin: 83% 0% 0% 0%;
     text-align: center;
-    font-size: 100%;
+    font-size: 90%;
   }
 }
 
