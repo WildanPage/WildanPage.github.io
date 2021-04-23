@@ -35,7 +35,8 @@ body{
     width: 100%;
   }
   .intro {
-    width: 98.5%;
+    width: 90%;
+    padding: 5%;
   }
 }
 
@@ -79,7 +80,9 @@ p{
   text-align: center;
   padding:1.5%;
 }
-
+#button1{
+  margin-right: 5%;
+}
 #button1,#button2{
    box-shadow: 2px 4px 2px  black;
    background-color: cornsilk;
