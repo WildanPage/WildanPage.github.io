@@ -1,84 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=RocknRoll+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 .intro{
-    text-align: center;
     border: 2px none;
     height: 350px;
     padding-top: 5%;
-    font-family: 'RocknRoll One', sans-serif;
-    background-color: black;
+    text-align: center;
+    background: rgb(6,6,6);
+    background: linear-gradient(90deg, rgba(6,6,6,0.8715861344537815) 4%, rgba(84,84,81,0.865983893557423) 98%);
 }
-i{
+i{  
     font-size: 200%;
-    color: coral;
-    padding:0% 1% 0% 1%;
-    transition: 0.3s;
+    
+    padding: 1%;
+    transition: 0.5s;
+    
 }
 i:hover{
-    font-size: 250%;
+    transform: scale(1.5);
+}
+#html{
+    color: orangered;
+}
+#css{
+    color: rgb(25, 159, 204);
+}
+#js{
+    color: yellow;
+}
+#figma{
+    color:gainsboro;
 }
 #nama {
-    color: rgb(241, 227, 227);
-    font-size: 350%;
+    text-align: center;
+    color: cornsilk;
+    filter: drop-shadow(2px 3px 2px);
+    font-size: 380%;
+    font-family: 'Nunito', sans-serif;
 }
 
 #role{
-    color: rgb(230, 102, 102);
-   font-size: 180%;
+    text-align: center;
+    color: rgba(242,188,4);
+    font-size: 150%;
    
 }
+
 .container-fluid{
-    background-color: coral;
+    background: rgb(244,101,12);
+    background: linear-gradient(90deg, rgba(244,101,12,0.7679446778711485) 38%, rgba(242,188,4,0.700717787114846) 98%);
     border: 1px none coral;
     padding-bottom: 5%;
 }
 
 #tulisan{
+    color: cornsilk;
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 160%;
     padding-top: 20px;
     font-family: 'Dela Gothic One', cursive;
 }
-.web1,.web2{display: flex;
+.footer {
+    background: rgb(6,6,6);
+    background: linear-gradient(90deg, rgba(6,6,6,0.8715861344537815) 4%, rgba(84,84,81,0.865983893557423) 98%);
+    float:left;
+    text-align: center;
+    color:cornsilk;
+    padding: 1%;
+    width: 100%;
+}
+@media (max-width: 1200px) {
+    .intro{
+        padding-top: 30%;
+    }
+    #nama{
+        font-size: 200%;
+    }
+    #role{
+        font-size: 100%;
+    }
+    i{
+        font-size: 120%;
+    }
+    #tulisan{
+        font-size: 100%;
+    }
+    .footer{
+        font-size: 80%;
+    }
+}  
+
+.web1,.web2,.web3,.web4{
+    display: flex;
     padding: 2%;     
 }
 
-.kartu1,.kartu2,.kartu3,.kartu4 {
+.kartu1,.kartu2,.kartu3,.kartu4,.kartu5,.kartu6,.kartu7,.kartu8 {
     border:1px solid black;
     box-shadow: 0px 8px 16px 0 grey;
-    transition: 0.3s;
     width: 40%;
-    background-color: coral;
+    background: rgb(244,101,12);
+    background: linear-gradient(90deg, rgba(244,101,12,0.7679446778711485) 38%, rgba(242,188,4,0.700717787114846) 98%);
     margin: auto;
-    transition: 0.5s;
+    
 }
 .kartu1:hover{
     box-shadow: 0px 8px 16px 0 black;
-    transform: translateY(-10px);
 }
 .kartu2:hover{
     box-shadow: 0px 8px 16px 0 black;
-    transform: translateY(-10px);
+   
 }
 .kartu3:hover{
     box-shadow: 0px 8px 16px 0 black;
-    transform: translateY(-10px);
 }
 .kartu4:hover{
     box-shadow: 0px 8px 16px 0 black;
-    transform: translateY(-10px);
+}
+.kartu5:hover{
+    box-shadow: 0px 8px 16px 0 black;
+    
+}
+.kartu6:hover{
+    box-shadow: 0px 8px 16px 0 black;
+    
+}
+.kartu7:hover{
+    box-shadow: 0px 8px 16px 0 black;
+    
+}
+.kartu8:hover{
+    box-shadow: 0px 8px 16px 0 black;
 }
 #personal{
     text-align: center;
     margin-top: 10px;
-    color: black;
+    color: cornsilk;
 }
-.footer {
-    background-color: black;
-    float:left;
-    text-align: center;
-    color: coral;
-    padding: 1%;
-    width: 100%;
-}
+
     
