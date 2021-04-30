@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Calligraffitti&family=Sawarabi+Gothic&display=swap');
+body{
+    background-image: linear-gradient(rgba(32, 32, 32, 0.5), rgba(59, 58, 58, 0.6)),
+    url(desert.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#title{
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 0.8%;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+.line1{
+    border: 1px solid white;
+    width: 80%;
+    margin:-1.5% 0% 0% 10%;
+}
+.line2{
+    border: 1px solid white;
+    width: 100%;
+   
+}
+#img-div{
+    text-align: center;
+    padding: 2%;
+    color: white;
+    font-size: 120%;
+   }
+#img-caption{
+    margin-top: 1%;
+}
+
+#tribute-link{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    margin:10px 0px 0px 12px;
+    text-decoration: none;
+    font-size: 150%;
+    color: cornsilk;
+    transition: 0.5s;
+    
+}
+a:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+@media (max-width: 800px){
+    #title{
+        font-size: 160%;
+    }
+    #img-caption{
+        font-size: 75%;
+        margin-top: 2%;
+    }
+    #img-div{
+        margin-top: 2%;
+    }
+    #tribute-link{
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+    a{
+        margin: auto;
+    }
+    a:hover{
+        transform: scale(1.2);
+        text-decoration: underline;
+    }
+}
+img{
+    width: 50%;
+    border: 1px solid white;
+    box-shadow: 4px 4px 15px 8px rgb(41, 40, 40);
+    transition: 0.5s;
+}
+img:hover{
+    box-shadow: 4px 4px 15px 8px black;
+}
+
+#tribute-info{
+    border: 0.2px none white;
+    padding: 2.2% 10% 0% 10%;
+    margin: auto;
+    color: white;
+    background-color: rgba(19, 18, 18, 0.5);
+    font-family: 'Acme', sans-serif;
+}
+#bio,#karya{
+    text-align: center;
+    font-size: 200%;
+}
+.deskripsi{
+    text-align: justify;
+    font-size: 110%;
+}
+ul{
+    text-align: justify;
+}
