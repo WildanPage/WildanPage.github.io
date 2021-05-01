@@ -1,0 +1,121 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    }
+
+.nav{
+    border: 2px solid brown;
+    width: 22%;
+    background-color:rosybrown ;
+    float: left;
+    position: fixed;
+}
+#navbar>header{
+    color: seashell;
+    font-size: 180%;
+    background-color: brown;
+    padding:5%;
+    
+    
+}
+.nav-link>a{
+    padding: 5%;
+    margin-top: 1%;
+    font-size: 120%;
+    color: seashell;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: 0.4s;
+}
+
+a:hover{
+    transform:scale(1.08)
+    
+}
+
+.icon{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .nav a {
+        display: none;
+        }
+    .nav.responsive a {
+        display: block;
+    }
+    .nav{
+        width: 99%;
+        font-size: 90%;
+        position: relative;
+        }
+    
+    .nav a.icon {
+    display: inline;
+    margin:10px 0px 0px 80px;
+    color: seashell;
+    }
+    
+   .main-section{
+    width: 100%;
+    padding-top: 5%;
+    float: none;
+    }
+}
+
+.line{
+    border:1px solid brown;
+}
+
+.main-section{
+    padding-left: 23%;
+    float: right;
+}
+.main-section>section>header{
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+#Introduction{
+    background-color: rgb(233, 197, 171);
+    padding: 5%;
+   
+}
+#What_you_should_already_know{
+    background-color: rgb(218, 210, 201);
+    padding: 5%;
+}
+#JavaScript_and_Java{
+    background-color: blanchedalmond;
+    padding: 5%;
+}
+#Hello_world{
+    background-color: rgb(195, 204, 204);
+    padding:5%
+}
+#Variables{
+    background-color: rgb(189, 204, 172);
+    padding:5%;
+}
+#Declaring_variables{
+    background-color: rgb(240, 190, 173);
+    padding: 5%;
+}
+#Variable_scope{
+    background-color: rgb(209, 187, 130);
+    padding:5%;
+}
+#Reference{
+    background-color: rgb(167, 160, 141);
+    padding:2% 0% 2% 5%;
+}
+
+code{
+    border:1px solid rgba(184, 180, 180);
+    border-radius: 10px;
+    background-color: rgba(184, 180, 180, 0.5);
+    padding: 1%;
+}
